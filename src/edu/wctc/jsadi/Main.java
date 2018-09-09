@@ -79,7 +79,6 @@ public class Main {
             for (int i = 0; i < n - 1; i++) {
                 for (int j = 0; j < n - i - 1; j++) {
                     if (toSort.get(j)[0].compareTo(toSort.get(j + 1)[0]) > 0) {
-                        // swap temp and arr[i]
                         String[] temp = toSort.get(j);
                         toSort.set(j, toSort.get(j + 1));
                         toSort.set(j + 1, temp);
