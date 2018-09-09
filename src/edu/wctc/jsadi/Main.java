@@ -3,6 +3,15 @@ package edu.wctc.jsadi;
 import java.util.ArrayList;
 import java.util.Arrays;
 
+/**
+ * This is the driver class for this package.
+ * It reads two files, then prints each unique country, the number of cities listed for the country, and the
+ * number of unique "stuff" listed for the country.
+ * Created by jsadi on 9/8/2018
+ * @author Jordan Sadi
+ * @version 2018 0908 .3
+ */
+
 public class Main {
 
     public static void main(String[] args) {
@@ -64,6 +73,10 @@ public class Main {
         }
     }
 
+    /**
+     * This method opens a specified file, splits each line into an ArrayList, sorts it, and prints it back to the file.
+     * @param fileName the name of the file to be sorted.
+     */
     public static void sortFile(String fileName) {
         FileInput inFile = new FileInput(fileName);
 
