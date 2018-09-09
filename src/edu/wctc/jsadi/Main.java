@@ -75,7 +75,7 @@ public class Main {
 
     /**
      * This method opens a specified file, splits each line into an ArrayList, sorts it, and prints it back to the file.
-     * @param fileName the name of the file to be sorted.
+     * @param fileName String name of the file to be sorted.
      */
     public static void sortFile(String fileName) {
         FileInput inFile = new FileInput(fileName);
